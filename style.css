@@ -1,0 +1,422 @@
+.header{
+     min-height: 200px;
+     padding: 30px;
+     width: 100%;
+     color: #fff;
+}
+
+div{
+     display: block;
+}
+a{
+     font-size: 10px;
+}
+
+
+
+
+/* font-Gandom */
+@font-face {
+    font-family: Gandom;
+    src: url('http://fonts.codearena.ir/rastikerdar/gandom/gandom.eot');
+    src: url('http://fonts.codearena.ir/rastikerdar/gandom/gandom.eot?#iefix') format('embedded-opentype'),
+         url('http://fonts.codearena.ir/rastikerdar/gandom/gandom.woff') format('woff'),
+         url('http://fonts.codearena.ir/rastikerdar/gandom/gandom.ttf') format('truetype');
+    font-weight: normal;
+  }  
+/* font-Parastoo */
+@font-face {
+    font-family: Parastoo;
+    src: url('http://fonts.codearena.ir/rastikerdar/parastoo/parastoo.eot');
+    src: url('http://fonts.codearena.ir/rastikerdar/parastoo/parastoo.eot?#iefix') format('embedded-opentype'),
+         url('http://fonts.codearena.ir/rastikerdar/parastoo/parastoo.woff') format('woff'),
+         url('http://fonts.codearena.ir/rastikerdar/parastoo/parastoo.ttf') format('truetype');
+    font-weight: normal;
+  }  
+/* font-Sahel */
+@font-face {
+    font-family: Sahel;
+    src: url('http://fonts.codearena.ir/rastikerdar/sahel/sahel.eot');
+    src: url('http://fonts.codearena.ir/rastikerdar/sahel/sahel.eot?#iefix') format('embedded-opentype'),
+         url('http://fonts.codearena.ir/rastikerdar/sahel/sahel.woff') format('woff'),
+         url('http://fonts.codearena.ir/rastikerdar/sahel/sahel.ttf') format('truetype');
+    font-weight: normal;
+  }  
+/* font-Samim */
+@font-face {
+    font-family: Samim;
+    src: url('http://fonts.codearena.ir/rastikerdar/samim/samim.eot');
+    src: url('http://fonts.codearena.ir/rastikerdar/samim/samim.eot?#iefix') format('embedded-opentype'),
+         url('http://fonts.codearena.ir/rastikerdar/samim/samim.woff') format('woff'),
+         url('http://fonts.codearena.ir/rastikerdar/samim/samim.ttf') format('truetype');
+    font-weight: normal;
+  }  
+/* font-Shabnam */
+@font-face {
+    font-family: Shabnam;
+    src: url('http://fonts.codearena.ir/rastikerdar/shabnam/shabnam.eot');
+    src: url('http://fonts.codearena.ir/rastikerdar/shabnam/shabnam.eot?#iefix') format('embedded-opentype'),
+         url('http://fonts.codearena.ir/rastikerdar/shabnam/shabnam.woff') format('woff'),
+         url('http://fonts.codearena.ir/rastikerdar/shabnam/shabnam.ttf') format('truetype');
+    font-weight: normal;
+  }  
+/* font-Tanha */
+@font-face {
+    font-family: Tanha;
+    src: url('http://fonts.codearena.ir/rastikerdar/tanha/tanha.eot');
+    src: url('http://fonts.codearena.ir/rastikerdar/tanha/tanha.eot?#iefix') format('embedded-opentype'),
+         url('http://fonts.codearena.ir/rastikerdar/tanha/tanha.woff') format('woff'),
+         url('http://fonts.codearena.ir/rastikerdar/tanha/tanha.ttf') format('truetype');
+    font-weight: normal;
+  }  
+/* font-Vazir */
+@font-face {
+    font-family: Vazir;
+    src: url('http://fonts.codearena.ir/rastikerdar/vazir/vazir.eot');
+    src: url('http://fonts.codearena.ir/rastikerdar/vazir/vazir.eot?#iefix') format('embedded-opentype'),
+         url('http://fonts.codearena.ir/rastikerdar/vazir/vazir.woff') format('woff'),
+         url('http://fonts.codearena.ir/rastikerdar/vazir/vazir.ttf') format('truetype');
+    font-weight: normal;
+  }  
+/* font-Badr */
+@font-face {
+    font-family: Badr;
+    src: url('http://fonts.codearena.ir/b/badr/badr.eot');
+    src: url('http://fonts.codearena.ir/b/badr/badr.eot?#iefix') format('embedded-opentype'),
+         url('http://fonts.codearena.ir/b/badr/badr.woff') format('woff'),
+         url('http://fonts.codearena.ir/b/badr/badr.ttf') format('truetype');
+    font-weight: normal;
+  }  
+/* font-Baran */
+@font-face {
+    font-family: Baran;
+    src: url('http://fonts.codearena.ir/b/baran/baran.eot');
+    src: url('http://fonts.codearena.ir/b/baran/baran.eot?#iefix') format('embedded-opentype'),
+         url('http://fonts.codearena.ir/b/baran/baran.woff') format('woff'),
+         url('http://fonts.codearena.ir/b/baran/baran.ttf') format('truetype');
+    font-weight: normal;
+  }  
+/* font-Bardiya */
+@font-face {
+    font-family: Bardiya;
+    src: url('http://fonts.codearena.ir/b/bardiya/bardiya.eot');
+    src: url('http://fonts.codearena.ir/b/bardiya/bardiya.eot?#iefix') format('embedded-opentype'),
+         url('http://fonts.codearena.ir/b/bardiya/bardiya.woff') format('woff'),
+         url('http://fonts.codearena.ir/b/bardiya/bardiya.ttf') format('truetype');
+    font-weight: normal;
+  }  
+/* font-Compset */
+@font-face {
+    font-family: Compset;
+    src: url('http://fonts.codearena.ir/b/compset/compset.eot');
+    src: url('http://fonts.codearena.ir/b/compset/compset.eot?#iefix') format('embedded-opentype'),
+         url('http://fonts.codearena.ir/b/compset/compset.woff') format('woff'),
+         url('http://fonts.codearena.ir/b/compset/compset.ttf') format('truetype');
+    font-weight: normal;
+  }  
+/* font-Davat */
+@font-face {
+    font-family: Davat;
+    src: url('http://fonts.codearena.ir/b/davat/davat.eot');
+    src: url('http://fonts.codearena.ir/b/davat/davat.eot?#iefix') format('embedded-opentype'),
+         url('http://fonts.codearena.ir/b/davat/davat.woff') format('woff'),
+         url('http://fonts.codearena.ir/b/davat/davat.ttf') format('truetype');
+    font-weight: normal;
+  }  
+/* font-Elham */
+@font-face {
+    font-family: Elham;
+    src: url('http://fonts.codearena.ir/b/elham/elham.eot');
+    src: url('http://fonts.codearena.ir/b/elham/elham.eot?#iefix') format('embedded-opentype'),
+         url('http://fonts.codearena.ir/b/elham/elham.woff') format('woff'),
+         url('http://fonts.codearena.ir/b/elham/elham.ttf') format('truetype');
+    font-weight: normal;
+  }  
+/* font-Esfehanbold */
+@font-face {
+    font-family: Esfehanbold;
+    src: url('http://fonts.codearena.ir/b/esfehanbold/esfehanbold.eot');
+    src: url('http://fonts.codearena.ir/b/esfehanbold/esfehanbold.eot?#iefix') format('embedded-opentype'),
+         url('http://fonts.codearena.ir/b/esfehanbold/esfehanbold.woff') format('woff'),
+         url('http://fonts.codearena.ir/b/esfehanbold/esfehanbold.ttf') format('truetype');
+    font-weight: normal;
+  }  
+/* font-Fantezy */
+@font-face {
+    font-family: Fantezy;
+    src: url('http://fonts.codearena.ir/b/fantezy/fantezy.eot');
+    src: url('http://fonts.codearena.ir/b/fantezy/fantezy.eot?#iefix') format('embedded-opentype'),
+         url('http://fonts.codearena.ir/b/fantezy/fantezy.woff') format('woff'),
+         url('http://fonts.codearena.ir/b/fantezy/fantezy.ttf') format('truetype');
+    font-weight: normal;
+  }  
+/* font-Farnaz */
+@font-face {
+    font-family: Farnaz;
+    src: url('http://fonts.codearena.ir/b/farnaz/farnaz.eot');
+    src: url('http://fonts.codearena.ir/b/farnaz/farnaz.eot?#iefix') format('embedded-opentype'),
+         url('http://fonts.codearena.ir/b/farnaz/farnaz.woff') format('woff'),
+         url('http://fonts.codearena.ir/b/farnaz/farnaz.ttf') format('truetype');
+    font-weight: normal;
+  }  
+/* font-Ferdosi */
+@font-face {
+    font-family: Ferdosi;
+    src: url('http://fonts.codearena.ir/b/ferdosi/ferdosi.eot');
+    src: url('http://fonts.codearena.ir/b/ferdosi/ferdosi.eot?#iefix') format('embedded-opentype'),
+         url('http://fonts.codearena.ir/b/ferdosi/ferdosi.woff') format('woff'),
+         url('http://fonts.codearena.ir/b/ferdosi/ferdosi.ttf') format('truetype');
+    font-weight: normal;
+  }  
+/* font-Hamid */
+@font-face {
+    font-family: Hamid;
+    src: url('http://fonts.codearena.ir/b/hamid/hamid.eot');
+    src: url('http://fonts.codearena.ir/b/hamid/hamid.eot?#iefix') format('embedded-opentype'),
+         url('http://fonts.codearena.ir/b/hamid/hamid.woff') format('woff'),
+         url('http://fonts.codearena.ir/b/hamid/hamid.ttf') format('truetype');
+    font-weight: normal;
+  }  
+/* font-Helal */
+@font-face {
+    font-family: Helal;
+    src: url('http://fonts.codearena.ir/b/helal/helal.eot');
+    src: url('http://fonts.codearena.ir/b/helal/helal.eot?#iefix') format('embedded-opentype'),
+         url('http://fonts.codearena.ir/b/helal/helal.woff') format('woff'),
+         url('http://fonts.codearena.ir/b/helal/helal.ttf') format('truetype');
+    font-weight: normal;
+  }  
+/* font-Homa */
+@font-face {
+    font-family: Homa;
+    src: url('http://fonts.codearena.ir/b/homa/homa.eot');
+    src: url('http://fonts.codearena.ir/b/homa/homa.eot?#iefix') format('embedded-opentype'),
+         url('http://fonts.codearena.ir/b/homa/homa.woff') format('woff'),
+         url('http://fonts.codearena.ir/b/homa/homa.ttf') format('truetype');
+    font-weight: normal;
+  }  
+/* font-Jadidbold */
+@font-face {
+    font-family: Jadidbold;
+    src: url('http://fonts.codearena.ir/b/jadidbold/jadidbold.eot');
+    src: url('http://fonts.codearena.ir/b/jadidbold/jadidbold.eot?#iefix') format('embedded-opentype'),
+         url('http://fonts.codearena.ir/b/jadidbold/jadidbold.woff') format('woff'),
+         url('http://fonts.codearena.ir/b/jadidbold/jadidbold.ttf') format('truetype');
+    font-weight: normal;
+  }  
+/* font-Jalal */
+@font-face {
+    font-family: Jalal;
+    src: url('http://fonts.codearena.ir/b/jalal/jalal.eot');
+    src: url('http://fonts.codearena.ir/b/jalal/jalal.eot?#iefix') format('embedded-opentype'),
+         url('http://fonts.codearena.ir/b/jalal/jalal.woff') format('woff'),
+         url('http://fonts.codearena.ir/b/jalal/jalal.ttf') format('truetype');
+    font-weight: normal;
+  }  
+/* font-Koodakbold */
+@font-face {
+    font-family: Koodakbold;
+    src: url('http://fonts.codearena.ir/b/koodakbold/koodakbold.eot');
+    src: url('http://fonts.codearena.ir/b/koodakbold/koodakbold.eot?#iefix') format('embedded-opentype'),
+         url('http://fonts.codearena.ir/b/koodakbold/koodakbold.woff') format('woff'),
+         url('http://fonts.codearena.ir/b/koodakbold/koodakbold.ttf') format('truetype');
+    font-weight: normal;
+  }  
+/* font-Kourosh */
+@font-face {
+    font-family: Kourosh;
+    src: url('http://fonts.codearena.ir/b/kourosh/kourosh.eot');
+    src: url('http://fonts.codearena.ir/b/kourosh/kourosh.eot?#iefix') format('embedded-opentype'),
+         url('http://fonts.codearena.ir/b/kourosh/kourosh.woff') format('woff'),
+         url('http://fonts.codearena.ir/b/kourosh/kourosh.ttf') format('truetype');
+    font-weight: normal;
+  }  
+/* font-Lotus */
+@font-face {
+    font-family: Lotus;
+    src: url('http://fonts.codearena.ir/b/lotus/lotus.eot');
+    src: url('http://fonts.codearena.ir/b/lotus/lotus.eot?#iefix') format('embedded-opentype'),
+         url('http://fonts.codearena.ir/b/lotus/lotus.woff') format('woff'),
+         url('http://fonts.codearena.ir/b/lotus/lotus.ttf') format('truetype');
+    font-weight: normal;
+  }  
+/* font-Mahsa */
+@font-face {
+    font-family: Mahsa;
+    src: url('http://fonts.codearena.ir/b/mahsa/mahsa.eot');
+    src: url('http://fonts.codearena.ir/b/mahsa/mahsa.eot?#iefix') format('embedded-opentype'),
+         url('http://fonts.codearena.ir/b/mahsa/mahsa.woff') format('woff'),
+         url('http://fonts.codearena.ir/b/mahsa/mahsa.ttf') format('truetype');
+    font-weight: normal;
+  }  
+/* font-Mehrbold */
+@font-face {
+    font-family: Mehrbold;
+    src: url('http://fonts.codearena.ir/b/mehrbold/mehrbold.eot');
+    src: url('http://fonts.codearena.ir/b/mehrbold/mehrbold.eot?#iefix') format('embedded-opentype'),
+         url('http://fonts.codearena.ir/b/mehrbold/mehrbold.woff') format('woff'),
+         url('http://fonts.codearena.ir/b/mehrbold/mehrbold.ttf') format('truetype');
+    font-weight: normal;
+  }  
+/* font-Mitra */
+@font-face {
+    font-family: Mitra;
+    src: url('http://fonts.codearena.ir/b/mitra/mitra.eot');
+    src: url('http://fonts.codearena.ir/b/mitra/mitra.eot?#iefix') format('embedded-opentype'),
+         url('http://fonts.codearena.ir/b/mitra/mitra.woff') format('woff'),
+         url('http://fonts.codearena.ir/b/mitra/mitra.ttf') format('truetype');
+    font-weight: normal;
+  }  
+/* font-Morvarid */
+@font-face {
+    font-family: Morvarid;
+    src: url('http://fonts.codearena.ir/b/morvarid/morvarid.eot');
+    src: url('http://fonts.codearena.ir/b/morvarid/morvarid.eot?#iefix') format('embedded-opentype'),
+         url('http://fonts.codearena.ir/b/morvarid/morvarid.woff') format('woff'),
+         url('http://fonts.codearena.ir/b/morvarid/morvarid.ttf') format('truetype');
+    font-weight: normal;
+  }  
+/* font-Narm */
+@font-face {
+    font-family: Narm;
+    src: url('http://fonts.codearena.ir/b/narm/narm.eot');
+    src: url('http://fonts.codearena.ir/b/narm/narm.eot?#iefix') format('embedded-opentype'),
+         url('http://fonts.codearena.ir/b/narm/narm.woff') format('woff'),
+         url('http://fonts.codearena.ir/b/narm/narm.ttf') format('truetype');
+    font-weight: normal;
+  }  
+/* font-Nasimbold */
+@font-face {
+    font-family: Nasimbold;
+    src: url('http://fonts.codearena.ir/b/nasimbold/nasimbold.eot');
+    src: url('http://fonts.codearena.ir/b/nasimbold/nasimbold.eot?#iefix') format('embedded-opentype'),
+         url('http://fonts.codearena.ir/b/nasimbold/nasimbold.woff') format('woff'),
+         url('http://fonts.codearena.ir/b/nasimbold/nasimbold.ttf') format('truetype');
+    font-weight: normal;
+  }  
+/* font-Roya */
+@font-face {
+    font-family: Roya;
+    src: url('http://fonts.codearena.ir/b/roya/roya.eot');
+    src: url('http://fonts.codearena.ir/b/roya/roya.eot?#iefix') format('embedded-opentype'),
+         url('http://fonts.codearena.ir/b/roya/roya.woff') format('woff'),
+         url('http://fonts.codearena.ir/b/roya/roya.ttf') format('truetype');
+    font-weight: normal;
+  }  
+/* font-Setarehbold */
+@font-face {
+    font-family: Setarehbold;
+    src: url('http://fonts.codearena.ir/b/setarehbold/setarehbold.eot');
+    src: url('http://fonts.codearena.ir/b/setarehbold/setarehbold.eot?#iefix') format('embedded-opentype'),
+         url('http://fonts.codearena.ir/b/setarehbold/setarehbold.woff') format('woff'),
+         url('http://fonts.codearena.ir/b/setarehbold/setarehbold.ttf') format('truetype');
+    font-weight: normal;
+  }  
+/* font-Shiraz */
+@font-face {
+    font-family: Shiraz;
+    src: url('http://fonts.codearena.ir/b/shiraz/shiraz.eot');
+    src: url('http://fonts.codearena.ir/b/shiraz/shiraz.eot?#iefix') format('embedded-opentype'),
+         url('http://fonts.codearena.ir/b/shiraz/shiraz.woff') format('woff'),
+         url('http://fonts.codearena.ir/b/shiraz/shiraz.ttf') format('truetype');
+    font-weight: normal;
+  }  
+/* font-Sinabold */
+@font-face {
+    font-family: Sinabold;
+    src: url('http://fonts.codearena.ir/b/sinabold/sinabold.eot');
+    src: url('http://fonts.codearena.ir/b/sinabold/sinabold.eot?#iefix') format('embedded-opentype'),
+         url('http://fonts.codearena.ir/b/sinabold/sinabold.woff') format('woff'),
+         url('http://fonts.codearena.ir/b/sinabold/sinabold.ttf') format('truetype');
+    font-weight: normal;
+  }  
+/* font-Tabassom */
+@font-face {
+    font-family: Tabassom;
+    src: url('http://fonts.codearena.ir/b/tabassom/tabassom.eot');
+    src: url('http://fonts.codearena.ir/b/tabassom/tabassom.eot?#iefix') format('embedded-opentype'),
+         url('http://fonts.codearena.ir/b/tabassom/tabassom.woff') format('woff'),
+         url('http://fonts.codearena.ir/b/tabassom/tabassom.ttf') format('truetype');
+    font-weight: normal;
+  }  
+/* font-Tehran */
+@font-face {
+    font-family: Tehran;
+    src: url('http://fonts.codearena.ir/b/tehran/tehran.eot');
+    src: url('http://fonts.codearena.ir/b/tehran/tehran.eot?#iefix') format('embedded-opentype'),
+         url('http://fonts.codearena.ir/b/tehran/tehran.woff') format('woff'),
+         url('http://fonts.codearena.ir/b/tehran/tehran.ttf') format('truetype');
+    font-weight: normal;
+  }  
+/* font-Titrbold */
+@font-face {
+    font-family: Titrbold;
+    src: url('http://fonts.codearena.ir/b/titrbold/titrbold.eot');
+    src: url('http://fonts.codearena.ir/b/titrbold/titrbold.eot?#iefix') format('embedded-opentype'),
+         url('http://fonts.codearena.ir/b/titrbold/titrbold.woff') format('woff'),
+         url('http://fonts.codearena.ir/b/titrbold/titrbold.ttf') format('truetype');
+    font-weight: normal;
+  }  
+/* font-Titrtgebold */
+@font-face {
+    font-family: Titrtgebold;
+    src: url('http://fonts.codearena.ir/b/titrtgebold/titrtgebold.eot');
+    src: url('http://fonts.codearena.ir/b/titrtgebold/titrtgebold.eot?#iefix') format('embedded-opentype'),
+         url('http://fonts.codearena.ir/b/titrtgebold/titrtgebold.woff') format('woff'),
+         url('http://fonts.codearena.ir/b/titrtgebold/titrtgebold.ttf') format('truetype');
+    font-weight: normal;
+  }  
+/* font-Traffic */
+@font-face {
+    font-family: Traffic;
+    src: url('http://fonts.codearena.ir/b/traffic/traffic.eot');
+    src: url('http://fonts.codearena.ir/b/traffic/traffic.eot?#iefix') format('embedded-opentype'),
+         url('http://fonts.codearena.ir/b/traffic/traffic.woff') format('woff'),
+         url('http://fonts.codearena.ir/b/traffic/traffic.ttf') format('truetype');
+    font-weight: normal;
+  }  
+/* font-Vahidbold */
+@font-face {
+    font-family: Vahidbold;
+    src: url('http://fonts.codearena.ir/b/vahidbold/vahidbold.eot');
+    src: url('http://fonts.codearena.ir/b/vahidbold/vahidbold.eot?#iefix') format('embedded-opentype'),
+         url('http://fonts.codearena.ir/b/vahidbold/vahidbold.woff') format('woff'),
+         url('http://fonts.codearena.ir/b/vahidbold/vahidbold.ttf') format('truetype');
+    font-weight: normal;
+  }  
+/* font-Yagut */
+@font-face {
+    font-family: Yagut;
+    src: url('http://fonts.codearena.ir/b/yagut/yagut.eot');
+    src: url('http://fonts.codearena.ir/b/yagut/yagut.eot?#iefix') format('embedded-opentype'),
+         url('http://fonts.codearena.ir/b/yagut/yagut.woff') format('woff'),
+         url('http://fonts.codearena.ir/b/yagut/yagut.ttf') format('truetype');
+    font-weight: normal;
+  }  
+/* font-Yas */
+@font-face {
+    font-family: Yas;
+    src: url('http://fonts.codearena.ir/b/yas/yas.eot');
+    src: url('http://fonts.codearena.ir/b/yas/yas.eot?#iefix') format('embedded-opentype'),
+         url('http://fonts.codearena.ir/b/yas/yas.woff') format('woff'),
+         url('http://fonts.codearena.ir/b/yas/yas.ttf') format('truetype');
+    font-weight: normal;
+  }  
+/* font-Yekan */
+@font-face {
+    font-family: Yekan;
+    src: url('http://fonts.codearena.ir/b/yekan/yekan.eot');
+    src: url('http://fonts.codearena.ir/b/yekan/yekan.eot?#iefix') format('embedded-opentype'),
+         url('http://fonts.codearena.ir/b/yekan/yekan.woff') format('woff'),
+         url('http://fonts.codearena.ir/b/yekan/yekan.ttf') format('truetype');
+    font-weight: normal;
+  }  
+/* font-Zar */
+@font-face {
+    font-family: Zar;
+    src: url('http://fonts.codearena.ir/b/zar/zar.eot');
+    src: url('http://fonts.codearena.ir/b/zar/zar.eot?#iefix') format('embedded-opentype'),
+         url('http://fonts.codearena.ir/b/zar/zar.woff') format('woff'),
+         url('http://fonts.codearena.ir/b/zar/zar.ttf') format('truetype');
+    font-weight: normal;
+  }
